@@ -2,6 +2,15 @@ var counter = function(arr) { return 'There are ' + arr.length + ' elements in t
 };
 
 
+var adder = function(a,b) { 
+    return `The sume of the 2 numbers is ${a+b}`;
+
+};
+
+var pi = 3.142; 
+
 console.log(counter(['shaun', 'crystal', 'ryu']));
 
-module.exports = counter; 
+module.exports.counter = counter; 
+module.exports.adder = adder;
+module.exports.pi = pi; 
