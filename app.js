@@ -1,6 +1,9 @@
 console.log(__dirname);
 console.log(__filename);
 
+var counter = require('./modulesnode')
+
+console.log(counter(['shaun', 'crystal', 'ryu']));
 // var time = 0; 
 
 
