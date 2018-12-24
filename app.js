@@ -1,16 +1,14 @@
-var fs = require('fs');
+var http = require('http'); 
 
-fs.unlink('./stuff/writeMe.txt', function() {
-   fs.rmdir('stuff');
+var server = http.createServer(function(req, res){
+    
+    res.writeHead(200, {'Content-Type': "text/plain"});
+    res.end("Hey Ninjas"); 
+    
+    
+    
 });
 
 
-//fs.mkdir('stuff' , function() {
-//     fs.readFile('readMe.txt', 'utf8' , function(data){
-//         fs.writeFile("./stuff/writeMe.txt",data);
-//     });
-// });
-
-//fs.rmdirSync('stuff');
-
-//fs.unlink('writeMe.txt');
+server.listen(3000, '127.0.0.1');
+console.log("yo dawgs now listening to port 3000");
