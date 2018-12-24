@@ -10,7 +10,7 @@ var adder = function(a,b) {
 var pi = 3.142; 
 
 console.log(counter(['shaun', 'crystal', 'ryu']));
-
+console.log(adder(4,2));
 module.exports.counter = counter; 
 module.exports.adder = adder;
 module.exports.pi = pi; 
