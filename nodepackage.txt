@@ -1,0 +1,10 @@
+go to this website https://www.npmjs.com/
+
+can help you to find 3rd party packages to help you find command line tools to help you install programs on command line. 
+
+for example npm install express 
+will help you use express tools. 
+click on packages to tell you more about the package
+
+
+you can uninstall with npm uninstall express
