@@ -1,0 +1,3 @@
+simple nodemon tutorial where you can download nodeman 
+
+simple command line tool npm install nodemon -g
